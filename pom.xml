@@ -15,4 +15,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>vcard-release</id>
+      <name>vcard-release</name>
+      <url>http://ec2-18-225-6-220.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-release/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>vcard-snapshot</id>
+      <name>vcard-snapshot</name>
+      <url>http://ec2-18-225-6-220.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshot/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+    ...
+  </distributionManagement>
 </project>
