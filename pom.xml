@@ -29,7 +29,6 @@
       <name>vcard-snapshot</name>
       <url>http://ec2-18-225-6-220.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshot/</url>
       <layout>legacy</layout>
-    </snapshotRepository>
-    ...
+    </snapshotRepository>    
   </distributionManagement>
 </project>
